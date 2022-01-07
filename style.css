@@ -45,3 +45,8 @@ section{
     border-radius: 20px;
     color: white;
 }
+.second-section{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
