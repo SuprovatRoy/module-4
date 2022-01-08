@@ -37,9 +37,9 @@ p{
     background-repeat: no-repeat;
 }
 .button{
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
-    background-color: orange;
+    background-image: linear-gradient( orange ,rgb(252, 100, 54) );
     margin-top: 5px;
     padding: 5px 15px;
     border-radius: 20px;
@@ -49,4 +49,36 @@ p{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#exp{
+    margin: 20px;
+}
+.ex-half-side{
+    box-shadow: 5px 5px 10px lightgray;
+    width: 40%;
+   padding: 10px;
+   margin: 0 5%;
+}
+
+.experice-section{
+    background-image: url(img/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#left-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+}
+#right-border{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(24, 180, 228), blue);
+    border-image-slice: 1;
+}
+footer{
+    margin-top: 50px;
+}
+footer p{
+    text-align: center;
 }
